@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Inquiry } from "./homescreen/Inqury";
 import { Link } from "react-scroll";
 import { Link as LinkRoute } from "react-router-dom";
-import Ghavi from "../5AD6AE8A-A6DF-4246-ABA4-BC8B70E851D2.png";
+
 import { timeline } from "@material-tailwind/react";
 
 const Navbar = () => {
@@ -53,9 +53,9 @@ const Navbar = () => {
   ];
 
   const Brand = () => (
-    <div className="flex items-center justify-between py-3 md:block bg-white  ">
+    <div className="flex items-center justify-between py-3 md:block  ">
     <LinkRoute to="/" className="text-white no-underline"/> 
-    <img src={Ghavi} alt="" className="logo  "   />
+    <img src="img/1.png" alt="" className="logo  "   />
     
       <div className="md:hidden">
         <button
@@ -108,7 +108,7 @@ const Navbar = () => {
             <Brand />
           </div>
           <nav 
-            className={` md:text-sm bg-white ${
+            className={` md:text-sm bg-[#111827] ${
               state
                 ? "absolute z-20 top-0 inset-x-0 bg-gray-800 rounded-xl mx-2 mt-2 md:mx-0 md:mt-0 md:relative md:bg-transparent"
                 : ""
@@ -133,7 +133,7 @@ const Navbar = () => {
                           spy={true}
                           smooth={true}
                           duration={500}
-                          className="block text-black no-underline cursor-pointer"
+                          className="block text-white no-underline cursor-pointer"
                         >
                           {item.title}
                         </Link>

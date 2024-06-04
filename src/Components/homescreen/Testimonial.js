@@ -42,7 +42,7 @@ export default () => {
                                                 </p>
                                             </blockquote>
                                             <div className="mt-6">
-                                                <img src={item.avatar} className="w-16 h-16 mx-auto rounded-full" />
+                                               
                                                 <div className="mt-3">
                                                     <span className="block text-white font-semibold">{item.name}</span>
                                                     <span className="block text-white text-sm mt-0.5">{item.title}</span>

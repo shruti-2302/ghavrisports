@@ -4,7 +4,7 @@ const Team = () => {
 
     const team = [
         {
-            //avatar: "https://images.unsplash.com/photo-1511485977113-f34c92461ad9?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&ixid=eyJhcHBfaWQiOjE3Nzg0fQ",
+            avatar: "img/harsh (1).jpeg",
             name: "Harsh Ghavri",
             title: "Head Coach",
             desc: "IDCA Certified Umpires and Scorer",
@@ -12,18 +12,18 @@ const Team = () => {
             twitter: "javascript:void(0)",
         },
         {
-           // avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
+         avatar: "img/coach 1.jpeg",
             name: "Aman Sharma",
-            title: "Support Staff",
+            title: "Cricket Coordinator",
             desc: "certified fitness trainer who specializes in cricket-specific fitness programs",
             linkedin: "javascript:void(0)",
             twitter: "javascript:void(0)",
         },
         
         {
-           // avatar: "https://randomuser.me/api/portraits/women/79.jpg",
-            name: "Pushpendra Sonwani",
-            title: "Bowling Coach",
+           avatar: "img/coach 2.jpeg",
+            name: "Prashant Pathroad",
+            title: "Batting Coach",
             desc: "certified cricket coach who has trained numerous aspiring cricketers",
             linkedin: "javascript:void(0)",
             twitter: "javascript:void(0)",

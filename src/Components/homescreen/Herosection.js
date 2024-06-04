@@ -2,27 +2,28 @@ import { motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 
 const Herosection = () => {
-  const backgroundImage = "url('https://img.freepik.com/premium-photo/football-stadium-with-illumination-generative-ai_141130-4918.jpg?w=740')"; // Replace with your image URL
+  const backgroundImage = "url('img/herosection.jpeg')"; // Replace with your image URL
 
   return (
     <section
       className="w-full px-10 py-12 grid grid-cols-1 md:grid-cols-2 items-center gap-12 max-w-8xl mx-auto"
-      style={{ backgroundImage }}
+      style={{ backgroundImage , backgroundSize: "cover",
+      backgroundRepeat: "no-repeat",
+      backgroundPosition: "center"}}
     >
       <div>
-        <span className="block mb-4 text-xs md:text-sm text-indigo-500 font-medium">
+        <span className="block mb-4 text-xs md:text-sm text-blue font-medium">
           Better every day
         </span>
-        <h3 className="text-4xl md:text-6xl font-semibold text-white">
+        <h3 className="text-4xl md:text-6xl font-semibold text-blue">
           Lets change it up a bit
         </h3>
         <p className="text-base md:text-lg text-slate-700 my-4 md:my-6">
-          Are you ready to embark on a journey of greatness? 
-          Join [Cricket Academy Name] and unleash your potential on the cricketing stage. Whether you dream of representing your country or simply enjoy the thrill of the game, we're here to make your aspirations a reality.
+        Established in 2016, Ghavri Sports Foundation stands as a beacon of excellence in 
+        cricket training in Indore. Our academy is dedicated to nurturing young talent and transforming them into skilled cricketers of tomorrow.
+
         </p>
-        <button className="bg-indigo-500 text-white font-medium py-2 px-4 rounded transition-all hover:bg-indigo-600 active:scale-95">
-          Inquiry
-        </button>
+      
       </div>
       <ShuffleGrid />
     </section>
@@ -65,11 +66,11 @@ const squareData = [
   },
   {
     id: 5,
-    src: "https://images.unsplash.com/photo-1569074187119-c87815b476da?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1325&q=80",
+    src: "https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/252600/252600.jpg",
   },
   {
     id: 6,
-    src: "https://images.unsplash.com/photo-1556817411-31ae72fa3ea0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+    src: "https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_800,q_50/esci/media/motion/2023/1216/dm_231216_INET_CRIC_INDvsENG_TESTREVIEW_GLOBAL/dm_231216_INET_CRIC_INDvsENG_TESTREVIEW_GLOBAL.jpg",
   },
   {
     id: 7,
@@ -77,7 +78,7 @@ const squareData = [
   },
   {
     id: 8,
-    src: "https://plus.unsplash.com/premium_photo-1671436824833-91c0741e89c9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+    src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbDjXnqiLKcohu0LuoTt7IS5Gh41xl3aOZ3g&s",
   },
   {
     id: 9,
@@ -85,19 +86,19 @@ const squareData = [
   },
   {
     id: 10,
-    src: "https://images.unsplash.com/photo-1610768764270-790fbec18178?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu5Gv1OzjPhOUVkl9k9itNW5TsroiXD6s01Q&s",
   },
   {
     id: 11,
-    src: "https://images.unsplash.com/photo-1507034589631-9433cc6bc453?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=684&q=80",
+    src: "https://media.istockphoto.com/id/177427917/photo/close-up-of-red-cricket-ball-and-bat-sitting-on-grass.jpg?s=612x612&w=0&k=20&c=DcorerbBUeDNTfld3OclgHxCty4jih2yDCzipffX6zw=",
   },
   {
     id: 12,
-    src: "https://images.unsplash.com/photo-1533107862482-0e6974b06ec4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=882&q=80",
+    src: "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/resizedimageskirti/Delhi_compress.jpg",
   },
   {
     id: 13,
-    src: "https://images.unsplash.com/photo-1560089000-7433a4ebbd64?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    src: "https://images.livemint.com/img/2023/01/17/1140x641/Big_Story_cricket_1673964347978_1673964358491_1673964358491.jpg",
   },
   {
     id: 14,
@@ -105,11 +106,11 @@ const squareData = [
   },
   {
     id: 15,
-    src: "https://images.unsplash.com/photo-1606244864456-8bee63fce472?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=681&q=80",
+    src: "https://images1.dnaindia.com/images/DNA-EN/900x1600/2023/7/19/1689764851119_27291066526687303932714832112344277558020981n.jpg",
   },
   {
     id: 16,
-    src: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1820&q=80",
+    src: "https://y20india.in/wp-content/uploads/2024/04/TeamIndia.webp",
   },
 ];
 
